@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#808080"
+    tools:context=".ConfigureAnalaytics">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:title="Xget"
+        app:titleTextColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:elevation="4dp"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+        app:popupTheme="@style/Theme.AppCompat.Light" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/geostar_fill"
+            android:text="Xget"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+         <androidx.cardview.widget.CardView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/todasycardview"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="8dp"
+            app:cardElevation="8dp"
+            android:background="#ffffff"
+            android:backgroundTint="@color/white">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/todaybtnimg"
+                    android:layout_width="55dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/today" />
+
+                <TextView
+                    android:id="@+id/todaybtntextview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/limelight"
+                    android:text=" Today's Analytics "
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+         <androidx.cardview.widget.CardView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/weekscardview"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        app:cardElevation="8dp"
+        android:background="#ffffff"
+        android:backgroundTint="@color/white">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/weekbtnimg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/week" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/limelight"
+                android:text=" Week's Analytics "
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+         <androidx.cardview.widget.CardView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/monthscardview"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        app:cardElevation="8dp"
+        android:background="#ffffff"
+        android:backgroundTint="@color/white">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/monthbtnimg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/today" />
+
+            <TextView
+                android:id="@+id/monthbtntextview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/limelight"
+                android:text=" Month Analytics "
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

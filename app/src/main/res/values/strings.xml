@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Xget</string>
+    <string-array name="item">
+        <item>Select item</item>
+        <item>Transport</item>
+        <item>Food</item>
+        <item>House</item>
+        <item>Entertainment</item>
+        <item>Charity</item>
+        <item>Education</item>
+        <item>Apparel</item>
+        <item>Health</item>
+        <item>Personal</item>
+        <item>Other</item>
+    </string-array>
+</resources>

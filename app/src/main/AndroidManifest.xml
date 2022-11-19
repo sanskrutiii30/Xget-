@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.xget">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Xget">
+        <activity
+            android:name=".Splash_screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Feedback"
+            android:exported="false" />
+        <activity
+            android:name=".ReadSMS"
+            android:exported="false" />
+        <activity
+            android:name=".MyProfile"
+            android:exported="false" />
+        <activity
+            android:name=".History"
+            android:exported="false" />
+        <activity
+            android:name=".MonthAnalytics"
+            android:exported="false" />
+        <activity
+            android:name=".WeekAnalytics"
+            android:exported="false" />
+        <activity
+            android:name=".DailyAnalytics"
+            android:exported="false" />
+        <activity
+            android:name=".ConfigureAnalaytics"
+            android:exported="false" />
+        <activity
+            android:name=".WeekSpending"
+            android:exported="false" />
+        <activity
+            android:name=".Todayspending"
+            android:exported="false" />
+        <activity
+            android:name=".Budget"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".SignUP"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+
+</manifest>
